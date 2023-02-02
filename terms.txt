@@ -1,0 +1,100 @@
+axiom | stacks | a mathematical rule
+exception | c++ | an object that signals the rest of the program that something unexpected has happened
+head | abstract data types | the first item or the front of the list
+tail | abstract data types | the last item or the back of the list
+growth rate | algorithms | proportional time requirement
+big o notation | algorithms | order of the growth rate function
+sequential search | algorithms | searching through an array of n items until you find a desired item or the end of the data collection
+binary search | algorithms | searches an array of n items, contiuously dividing the array in half
+internal sort | algorithms | collection of data that fits entirely in the computers main memory
+external sort | algorithms | collection of data that will not fit in the computers main memory
+sort key | algorithms | a key for sorting data in a data structure
+bubble sort | algortithms | compares adjacent items and exchanges them if they are out of order
+polymorphic | class relationships | the outcome of a particular operations depends upon the objects on which the operation acts
+inheritance | object-oriented concepts | reusing classes previously used for a related purpose by extending that implementation or making slight modifications
+encapsulation | object-oriented concepts | a technique that hides inner details of a program
+member functions | object-oriented concepts | operations specified in a class
+data members | object-oriented concepts | individual data items specified in a class
+cohesive module | data abstraction | understandable code that brings several immediate benefits to a design or solution
+operations contract | data abstraction | documents how a method can be used and what limitations it has
+abstraction | data abstraction | seperates the purpose of a module from its implementation
+information hiding | data abstraction | hiding details within a module and ensuring that no other module can tamper with the hidden details
+complete interface | data abstraction | an interface that will allow programmers to accomplish any reasonable task
+minimal interface | data abstractions | contains a method only if it is essential to a class' responsibilities
+signature | data abtraction | the interface to a function or method
+container | data abtraction | a thing that contains a collection of objects
+abstract base class | data abstraction | an abstract class that contains at least one method that is declared as virtual and has no implementation
+constructor | classes | allocates memory for new instances of a class and can initialize the objects data to specified values
+destructor | classes | destroys an instance of a class when the objects lifetime ends
+mutator method | classes | changes the value of a data field
+accessor method | classes | gets a value of a data field
+override | classes | redefining something
+base case | recursion | a special case that determines if a recursive function is finished or not
+iteration | algorithms | a solution that involves loops
+box trace | recursion | a thing that helps you understand recursion and debug recursive functions
+fibonacci sequence | algorithms | a sequence where each newest number is the sum of the last two
+adt | data abstraction | a collection of data and a set of operations on that data
+array-based implementation | arrays | storing items in an array
+assertions | general | certain truths
+code storage | pointers and free storage | when a program begins execution , in addition to the runtime stack, the os sets aside memory for the code
+static storage | pointers and free storage | storage saved for global variable and static variables
+pointer | pointers | a memory address stored in a variable
+memory leak | pointers and free storage | memory that has been allocated for use but is no longer needed and cannot be accessed or deallocated
+heap | pointers and free storage | extra memory which a programmer can use to store data
+delete operator | memory allocation | an operator that calls the class destructor
+dangling pointer | pointers | an pointer that contains the address of an object that was deallocated
+linked chain | link-based implementations | nodes that connect to one another with next or previous pointers
+traverse | link-based implementations | to move from node to node
+shallow copy | link-based implementations | when copying an object involves only copying the values of its data members
+language | recursion | a set of strings and symbols from a finite alphabet
+palindrome | recursion | a string that leads the same from left to right
+backtracking | recursion | retracing steps in reverse order and then trying a new sequence of steps
+closed-form formula | recursion | algebraic expressions
+lifo | stacks | last in first out policy
+rear | queues | where new nodes are added in a queue(the back)
+simulations | queues | the study of applications that involve waiting
+priority value | queues | indicates a tasks priority to completion
+double-ended queue | queues | a queue where items can be added or removed from either end
+circular chain | data types | a linear linked list but the last node points to the beginning
+linear chain | data types | a chain linked list of nodes with the last nodes next pointer being null
+rightward drift | queues | after a sequence of removals and additions the items in the queue will drift to the end of the array
+overloaded | overloaded operators | an operator with more than one meaning
+friend | overloaded operators | additional access of a class' to its private and protected parts by declaring other functions and classes as friends
+heirarchal | trees | a parent-child relationship exists between the nodes of a tree
+parent | trees | the node that leads to others
+child | trees | the node stemming from a parent
+root | trees | a parent with no parent
+leaf | trees | a node that has no children
+subtree | trees | any node in a tree together with all of its decendents
+binary tree | trees | the rule that a tree has at most two children
+binary search tree | tree | a binary tree that is sorted according to the values in the nodes
+height of a tree | trees | the number of nodes on the longest path from root to leaf
+level of a node | trees | the number of nodes from the root to node
+full binary tree | trees | all nodes that arent leaves have exactly two children
+balanced binary tree | trees | true if the height of any nodes right subtree differs from the height of the nodes left subtree by more than one
+free list | trees | establishing a connection of available nodes
+iterator | iterators | a program component that enables you to traverse a collection
+input iterator | iterators | retrieve an item in a collection and compare two iterators to determine whether they access the same entry in the collection
+distance between iterators | iterators | the number of elements or positions between the current positions of the two iterators
+maxheap | heaps | the root contains the item with the largest value
+minheap | heaps | the root contains the item with the smallest value
+heap sort | heaps | an algorithm that uses a heap to sort an array of items that are in no particular order
+hash table | hashing | an array table
+hash function | hashing | a function for converting a key into a number that will fit into your hash table
+collision | hashing | when the hash function wants to input something into the same array table location as something else
+folding | hashing | adding the digits of your input in your hash function
+selecting digits | hashing | when you select specific digits to organize where your data is going to go
+probe sequence | hashing | the sequence of locations that you examine
+primary clustering | hashing | a table that contains groups of consecutively occupied locations
+secondary clustering | hashing | delays the resolution of the collision
+key-independent | hashing | a hash table that does not need a key
+key-dependent | hashing | a hash table that needs a key
+load factor | hashing | the ratio of the current number of items in the dictionary to the maximum size of the array
+range query | hashing | retrieving all the items whose search keys fall into given range of values
+2-node | trees | a node with two children
+2-3 tree | trees | a tree in which each internal node has either two or three children and all leaves are at the same level
+3-node | trees | a node with three children
+4-node | trees | a node with four children
+2-3-4 tree | trees | like a 2-3 tree but allows 4-nodes
+red-black tree | trees | a special binary search tree that retains the advantages of a 2-3-4 tree without the storage overhead
+AVL tree | trees | a balanced binary search tree
